@@ -1,56 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>SMS Consent – BeWell CRM</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body style="font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto; line-height: 1.6;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SMS Consent (Internal Providers) | BeWell</title>
+    <style>
+      :root {
+        --text: #111827;
+        --muted: #4b5563;
+        --border: #e5e7eb;
+        --bg: #ffffff;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        line-height: 1.45;
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2.25rem 1.25rem 3rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0 0 1rem 0;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 2rem 0 0.5rem;
+      }
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem 1.25rem 1rem;
+        background: #fff;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .form-title {
+        font-weight: 700;
+        margin: 0;
+      }
+      .org {
+        font-weight: 650;
+        margin: 0.15rem 0 1rem 0;
+      }
+      p {
+        margin: 0.75rem 0;
+      }
+      ul {
+        margin: 0.75rem 0 0.25rem 1.25rem;
+      }
+      li {
+        margin: 0.35rem 0;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      .footer {
+        margin-top: 2rem;
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+      .nowrap {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>SMS Consent (Internal Providers)</h1>
 
-  <h1>SMS Consent for Internal Providers</h1>
-  
-  <p>SMS Consent (Internal Providers)</p>
+      <div class="card">
+        <p class="form-title">Provider SMS Consent Form</p>
+        <p class="org">JB Day Inc. dba Be Well Counseling and Wellness</p>
 
-  <p>JB Day Inc. dba Be Well Counseling and Wellness (“BeWell”) uses SMS to send operational notifications to internal providers (employees and contracted clinicians), 
-    including new intake assignments and follow-up reminders.
-  </p>
-  
-  <p>
-  Opt-in: By providing your mobile phone number during provider onboarding and affirmatively consenting to receive business-related SMS messages as part of your role, 
-    you agree to receive SMS messages from BeWell CRM. Consent is not required to purchase goods or services.
-  </p>
+        <p>
+          BeWell CRM sends SMS notifications to internal providers (employees and contracted
+          clinicians) for operational purposes, including new client intake assignments and
+          follow-up reminders.
+        </p>
 
-  <p>Message frequency: Message frequency varies (typically 0–3 messages per week).</p>
-  <p>Message & data rates may apply.</p>
-  <p>Opt-out: Reply STOP to opt out at any time.</p>
-  <p>Help: Reply HELP for help.</p>
-  <p>Support: Text Josette.</p>
+        <p>
+          By providing your mobile phone number and affirmatively consenting during provider
+          onboarding, you consent to receive business-related SMS messages from BeWell CRM.
+        </p>
 
-  
-  
-  <p>
-    BeWell CRM sends SMS notifications to internal providers (employees and contracted clinicians)
-    for operational purposes, including notification of new client intake assignments and follow-up reminders.
-  </p>
+        <ul>
+          <li>Message frequency varies (typically 0–3 messages per week).</li>
+          <li>Message &amp; data rates may apply.</li>
+          <li>Reply <strong>STOP</strong> to opt out at any time.</li>
+          <li>Reply <strong>HELP</strong> for help.</li>
+        </ul>
+      </div>
 
-  <p>
-    Providers provide consent to receive SMS notifications during onboarding by supplying their mobile
-    phone number and agreeing to receive business-related text messages as part of their role.
-  </p>
+      <h2>Opt-in Method (Paper Consent)</h2>
+      <p>
+        Providers consent to receive SMS messages by completing and signing a
+        <strong>Provider SMS Consent Form</strong> during onboarding, which is sent via email.
+      </p>
+      <p>
+        An example of the consent form is available here:
+        <a href="provider_sms_consent.pdf" class="nowrap">provider_sms_consent.pdf</a>
+      </p>
 
-  <p>
-    SMS messages are non-marketing and limited to operational notifications.
-    Messages may include a secure, time-limited link to view intake details after authentication.
-  </p>
+      <h2>Support</h2>
+      <p>For questions regarding SMS notifications, contact BeWell administrative support.</p>
 
-  <p>
-    Providers may opt out at any time by replying <strong>STOP</strong>.
-    For help, providers may reply <strong>HELP</strong>.
-  </p>
-
-  <p>
-    Questions may be directed to Josette.
-  </p>
-
-</body>
+      <p class="footer">
+        Note: SMS messages are operational notifications for internal providers. No marketing
+        messages are sent.
+      </p>
+    </main>
+  </body>
 </html>
